@@ -1,7 +1,7 @@
-## Group Name: Cookin' With Fire
+# Group Name: Cookin' With Fire
 Group Contributors HPointon, CGSilva, TRigney, BRivera
 
-#Goals
+##Goals
   * Create Arduino code for a microcontroller
   * Use code for growing crickets
   * 
