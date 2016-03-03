@@ -57,9 +57,9 @@ void loop() {
   Serial.print(hif);
   Serial.println(" *F");
 
-  if (h < 60) {
+  if (h < 50) {
     digitalWrite(8, HIGH);}
-  if (h > 70) {  
+  if (h > 60) {  
       digitalWrite(8, LOW);
     }
   if (t < 30){
