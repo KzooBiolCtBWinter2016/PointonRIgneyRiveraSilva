@@ -59,4 +59,4 @@ void loop() {
       digitalWrite(12, LOW);}
   }
 
-\\ end code
+// end code
