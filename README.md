@@ -1,7 +1,7 @@
 
 README
 ========
-Arduino 
+Arduino climate control
 --------
 
 ### Arduino script
