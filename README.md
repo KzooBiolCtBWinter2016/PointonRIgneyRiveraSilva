@@ -1,33 +1,25 @@
-The script measures and controls temperature and humidity. The code requires an Arduino board connected to a computer and to two relays, one temperature and humidity sensor, one humidifier and a a heating pad to function properly. The connexions on the board can be found in the Fritzing diagram.
 
+README
+========
+Arduino 
+--------
 
-Heading
-=======
+### Arduino script
 
-Sub-heading
------------
- 
-### Another deeper heading
- 
-Paragraphs are separated
-by a blank line.
+The script measures and controls temperature and humidity.  
+The first if statement maintains humidity between 60% and 70%.
+The second if statement maintains the temperature at a constant level between 30 and 31 degrees Celsius (equivalent of 86 and 88 degrees Fahrenheit).
+The script also reports failure in the reading from the sensor and exits the process.
 
-Two spaces at the end of a line leave a  
-line break.
+More information can be found commented along the code contained in the group_project.ino file.
 
-Text attributes _italic_, 
-**bold**, `monospace`.
+### Project set up
 
-Bullet list:
+Basic requirements:
+*One Arduino with a breadboard.
+*One temperature and humidity sensor.
+*Two relays.
+*One humidifier.
+*One heating pad.  
 
-  * apples
-  * oranges
-  * pears
-
-Numbered list:
-
-  1. apples
-  2. oranges
-  3. pears
-
-A [link](http://example.com).
+The Fritzing diagram shows how the parts are connected.
