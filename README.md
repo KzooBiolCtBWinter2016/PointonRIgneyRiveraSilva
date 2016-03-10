@@ -15,11 +15,11 @@ More information can be found commented along the code contained in the group_pr
 
 ### Project set up
 
-Basic requirements:
-*One Arduino with a breadboard.
-*One temperature and humidity sensor.
-*Two relays.
-*One humidifier.
+Basic requirements:  
+*One Arduino with a breadboard.  
+*One temperature and humidity sensor.  
+*Two relays.  
+*One humidifier.  
 *One heating pad.  
 
 The Fritzing diagram shows how the parts are connected.
