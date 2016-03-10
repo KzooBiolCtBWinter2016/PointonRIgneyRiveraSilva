@@ -46,9 +46,9 @@ void loop() {
   Serial.print(" *C ");
   
 // creates a range of read humidity in which the humidfier is placed on or off
-  if (h < 50) {
+  if (h < 60) {
     digitalWrite(8, HIGH);}
-  if (h > 60) {  
+  if (h > 70) {  
       digitalWrite(8, LOW);
     }
 
